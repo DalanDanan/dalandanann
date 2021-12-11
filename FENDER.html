@@ -1,0 +1,369 @@
+<html>
+    <body background="FENDER.png">
+        
+        <style>
+            
+             .BulletBlack
+            {
+                background-color: rgba(255, 0, 0, 0);
+                padding: none;
+                position: absolute;
+                top: 15%;
+                left: 2%;
+                transition: ease-out 0.3s;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .BulletBlack:hover
+            {
+                background-color: rgb(255, 211, 65);
+                position: absolute;
+                top: 15%;
+                left: 2%;
+                transition: 0.3s all ease;
+                border: none;
+                border-radius: 5px;
+                border: 2px solid #00000000;
+            }
+            
+            .BulletBurst
+            {
+                background-color: rgba(255, 0, 0, 0);
+                padding: none;
+                position: absolute;
+                top: 15%;
+                left: 26%;
+                transition: ease-out 0.3s;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .BulletBurst:hover
+            {
+                background-color: rgb(255, 211, 65);
+                position: absolute;
+                top: 15%;
+                left: 26%;
+                transition: 0.3s all ease;
+                border: none;
+                border-radius: 5px;
+                border: 2px solid #00000000;
+            }
+            
+            .BulletRed
+            {
+                background-color: rgba(255, 0, 0, 0);
+                padding: none;
+                position: absolute;
+                top: 15%;
+                left: 50%;
+                transition: ease-out 0.3s;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .BulletRed:hover
+            {
+                background-color: rgb(255, 211, 65);
+                position: absolute;
+                top: 15%;
+                left: 50%;
+                transition: 0.3s all ease;
+                border: none;
+                border-radius: 5px;
+                border: 2px solid #00000000;
+            }
+           
+            .BulletWhite
+            {
+                background-color: rgba(255, 0, 0, 0);
+                padding: none;
+                position: absolute;
+                top: 15%;
+                right: 1%;
+                transition: ease-out 0.3s;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .BulletWhite:hover
+            {
+                background-color: rgb(255, 211, 65);
+                position: absolute;
+                top: 15%;
+                right: 1%;
+                transition: 0.3s all ease;
+                border: none;
+                border-radius: 5px;
+                border: 2px solid #00000000;
+            }
+            
+
+
+            .PLayerStrat
+            {
+                background-color: rgba(255, 0, 0, 0);
+                padding: none;
+                position: absolute;
+                top: 62%;
+                left: 2%;
+                transition: ease-out 0.3s;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .PLayerStrat:hover
+            {
+                background-color: rgb(255, 211, 65);
+                position: absolute;
+                top: 62%;
+                left: 2%;
+                transition: 0.3s all ease;
+                border: none;
+                border-radius: 5px;
+                border: 2px solid #00000000;
+            }
+            
+            .PLayerStratBurst
+            {
+                background-color: rgba(255, 0, 0, 0);
+                padding: none;
+                position: absolute;
+                top: 62%;
+                left: 26%;
+                transition: ease-out 0.3s;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .PLayerStratBurst:hover
+            {
+                background-color: rgb(255, 211, 65);
+                position: absolute;
+                top: 62%;
+                left: 26%;
+                transition: 0.3s all ease;
+                border: none;
+                border-radius: 5px;
+                border: 2px solid #00000000;
+            }
+            
+            .PlayerTele
+            {
+                background-color: rgba(255, 0, 0, 0);
+                padding: none;
+                position: absolute;
+                top: 62%;
+                left: 50%;
+                transition: ease-out 0.3s;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .PlayerTele:hover
+            {
+                background-color: rgb(255, 211, 65);
+                position: absolute;
+                top: 62%;
+                left: 50%;
+                transition: 0.3s all ease;
+                border: none;
+                border-radius: 5px;
+                border: 2px solid #00000000;
+            }
+            
+            .Jaguar
+            {
+                background-color: rgba(255, 0, 0, 0);
+                padding: none;
+                position: absolute;
+                top: 62%;
+                right: 1%;
+                transition: ease-out 0.3s;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .Jaguar:hover
+            {
+                background-color: rgb(255, 211, 65);
+                position: absolute;
+                top: 62%;
+                right: 1%;
+                transition: 0.3s all ease;
+                border: none;
+                border-radius: 5px;
+                border: 2px solid #00000000;
+            }
+            
+
+
+            .PlayerTeleBlue
+            {
+                background-color: rgba(255, 0, 0, 0);
+                padding: none;
+                position: absolute;
+                top: 109%;
+                left: 2%;
+                transition: ease-out 0.3s;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .PlayerTeleBlue:hover
+            {
+                background-color: rgb(255, 211, 65);
+                position: absolute;
+                top: 109%;
+                left: 2%;
+                transition: 0.3s all ease;
+                border: none;
+                border-radius: 5px;
+                border: 2px solid #00000000;
+            }
+            
+            .JimRootSquire
+            {
+                background-color: rgba(255, 0, 0, 0);
+                padding: none;
+                position: absolute;
+                top: 109%;
+                left: 26%;
+                transition: ease-out 0.3s;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .JimRootSquire:hover
+            {
+                background-color: rgb(255, 211, 65);
+                position: absolute;
+                top: 109%;
+                left: 26%;
+                transition: 0.3s all ease;
+                border: none;
+                border-radius: 5px;
+                border: 2px solid #00000000;
+            }
+            
+            .FenderJim
+            {
+                background-color: rgba(255, 0, 0, 0);
+                padding: none;
+                position: absolute;
+                top: 109%;
+                left: 50%;
+                transition: ease-out 0.3s;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .FenderJim:hover
+            {
+                background-color: rgb(255, 211, 65);
+                position: absolute;
+                top: 109%;
+                left: 50%;
+                transition: 0.3s all ease;
+                border: none;
+                border-radius: 5px;
+                border: 2px solid #00000000;
+            }
+            
+            .AmericanPro
+            {
+                background-color: rgba(255, 0, 0, 0);
+                padding: none;
+                position: absolute;
+                top: 109%;
+                right: 1%;
+                transition: ease-out 0.3s;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .AmericanPro:hover
+            {
+                background-color: rgb(255, 211, 65);
+                position: absolute;
+                top: 109%;
+                right: 1%;
+                transition: 0.3s all ease;
+                border: none;
+                border-radius: 5px;
+                border: 2px solid #00000000;
+            }
+            
+            .AMERICANFIFTH
+            {
+                background-color: rgba(255, 0, 0, 0);
+                padding: none;
+                position: absolute;
+                top: 156%;
+                left: 2%;
+                transition: ease-out 0.3s;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .AMERICANFIFTH:hover
+            {
+                background-color: rgb(255, 211, 65);
+                position: absolute;
+                top: 156%;
+                left: 2%;
+                transition: 0.3s all ease;
+                border: none;
+                border-radius: 5px;
+                border: 2px solid #00000000;
+            }
+
+            .FenderLogo
+            {
+                background-color:rgba(241, 241, 241, 0.603);
+                padding: none;
+                position: absolute;
+                top: 1%;
+                left: 32%;
+                transition: ease-out 0.3s;
+                cursor: pointer;
+                border: none;
+                border-radius: 50px;
+            }
+        </style>
+
+        
+<a href="THANKYOU.html"><button class="button BulletBlack"><img src="BulletBlack.jpeg" height="300" width="300"></button></a>
+<a href="THANKYOU.html"><button class="button BulletBurst"><img src="BulletBurst.jpeg" height="300" width="300"></button></a>
+<a href="THANKYOU.html"><button class="button BulletRed"><img src="BulletRed.jpeg" height="300" width="300"></button></a>
+<a href="THANKYOU.html"><button class="button BulletWhite"><img src="BulletWhite.jpeg" height="300" width="300"></button></a>
+
+<a href="THANKYOU.html"><button class="button PLayerStrat"><img src="PlayerStrat.jpeg" height="300" width="300"></button></a>
+<a href="THANKYOU.html"><button class="button PLayerStratBurst"><img src="PlayerStratBurst.jpeg" height="300" width="300"></button></a>
+<a href="THANKYOU.html"><button class="button PlayerTele"><img src="PlayerTele.jpeg" height="300" width="300"></button></a>
+
+<a href="THANKYOU.html"><button class="button PlayerTeleBlue"><img src="PlayerTeleBlue.jpeg" height="300" width="300"></button></a>
+<a href="THANKYOU.html"><button class="button Jaguar"><img src="FenderJaguar.jpeg" height="300" width="300"></button></a>
+<a href="THANKYOU.html"><button class="button AmericanPro"><img src="AmericanProfessional.jpeg" height="300" width="300"></button></a>
+
+<a href="THANKYOU.html"><button class="button JimRootSquire"><img src="JimRootSquire.jpeg" height="300" width="300"></button></a>
+<a href="THANKYOU.html"><button class="button FenderJim"><img src="JimRootFender.jpeg" height="300" width="300"></button></a>
+<a href="THANKYOU.html"><button class="button AMERICANFIFTH"><img src="American50s.jpeg" height="300" width="300"></button></a>
+
+<button class="button FenderLogo"><img src="FENDERLOGO.png" height="90" width="500"></button>
+    </body>
+</html>
